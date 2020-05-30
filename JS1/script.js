@@ -97,9 +97,29 @@ function НАЗВАНИЕ(аргументы){
 */
 
 // Создаём функцию
-function showMyName(){
+function show(){
 	let name = "Alexander";
 	alert(name);
 }
+
+
+function showMyName(name){
+	alert(name);
+}
+
 // Используем функцию
-showMyName();
+showMyName("alexander");
+
+
+
+document.addEventListener( "click" , show );
+
+//let button = document.getElementById("btn");
+
+function showButton(){
+	let button = document.getElementById("btn");
+	alert(btn.innerHTML);
+}
+
+showButton();
+
