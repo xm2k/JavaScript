@@ -2,11 +2,59 @@ body{
     text-align: center;
 }
 
-
 #plus{
+    background-color: aqua;  
+}
+#plus:hover{
+    border-radius: 30% 0% 30% 0%;
     background-color: aqua;
+    transition: 0.2 ease-in ;
+    transition: 0.2 ease-in-out;
 }
 
-#minus{
-    background-color: aqua;
+#multiply{
+        background-color: blue;
 }
+
+#multiply:hover{
+    background-color: blue;
+    border-radius: 30% 0% 30% 0%;
+    transition: 0.2 ease-in ;
+    transition: 0.2 ease-in-out;
+}
+
+#division{
+    background-color: red;
+    border-radius: 30% 0% 30% 0%;
+    
+}
+#division:hover{
+    background-color: red;
+    border-radius: 30% 0% 30% 0%;
+    transition: 0.2 ease-in ;
+    transition: 0.2 ease-in-out;
+}
+#minus{
+    background-color: purple;
+    border-radius: 30% 0% 30% 0%;
+    
+}
+#minus:hover{
+    background-color: purple;
+    border-radius: 30% 0% 30% 0%;
+    transition: 0.2 ease-in ;
+    transition: 0.2 ease-in-out;
+}
+#exponentiation{
+    background-color: pink;
+
+}
+#exponentiation:hover{
+    background-color: pink;
+    transition: 0.2 ease-in ;
+    transition: 0.2 ease-in-out;
+}
+
+
+   
+
